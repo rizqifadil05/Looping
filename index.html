@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let z = 0; z <= 5; z++ ) {
+
+            console.log('data ke -',)
+        }
+
+        let x = 1
+
+        while(x <=100) {
+            console.log('data x ke -', x)
+            x++
+        }
+
+        let y = 1
+
+        do {
+            console.log('data y ke-', y)
+            y++
+
+        } while (y <= 10)
+         
+        for(let b = 1; b <= 10; b++ ){
+            if ( b % 2 === 1) 
+            console.log('data b ke -', b)
+        }
+
+        let b=1
+        while (b <=100) {
+            if ( b % 2 === 0) {
+            console.log(b + "adalah bilangan genap");
+        } else {
+            console.log(b + "adalah bilangan ganjil");
+        } b++;
+    }
+
+    let d=1
+    do{
+        if ( d % 2 === 0) {
+     console.log(d + "adalah bilangan genap");
+    } else {
+    console.log(d+ "adalah bilangan ganjil");
+    } d++}
+
+    while (d <=100)
+
+    function faktorial(n) {
+    let hasil = 1;
+    for (let i = 2; i <= n; i++) {
+        hasil *= i;
+    }
+    return hasil;
+}
+
+let n = 5;  // Ganti dengan angka yang Anda inginkan
+console.log(Hasil ${n} faktorial adalah ${faktorial(n)});
+
+function faktorial(n) {
+    let hasil = 1;
+    let i = 2;
+    while (i <=n) {
+        hasil *= i;
+        i++;
+    }
+    return hasil;
+}
+
+let n = 5;
+console.log(Hasil ${n} faktorial adalah ${faktorial(n)});
+
+function faktorial(n) {
+    let hasil = 1;
+    let i = 2;
+    do {
+        hasil *= i;
+        i++;
+    } while (i <= n);
+    return hasil;
+}   
+let n = 5;
+console.log(Hasil ${n} faktorial adalah ${faktorial(n)});
+
+for (let tahun = 1600 ; tahun <= 2024; tahun++) {
+            if ( tahun % 400 == 0){
+                console.log (tahun ${tahun} adalah tahun kabisat);
+            }
+            else if (tahun % 100 == 0){
+                console.log (tahun ${tahun} adalah bukan tahun kabisat);
+            }
+            else if ( tahun % 4 == 0){
+                console.log (tahun ${tahun} adalah tahun kabisat);
+            }
+        }
+
+        let tahun=1600
+        while (tahun <= 2024) {
+            if (tahun % 400 === 0){
+            console.log(tahun ${tahun} adalah tahun kabisat);
+            } else if (tahun % 100 ===0) {
+            console.log(tahun ${tahun} adalah bukan tahun kabisat);
+            } else if (tahun % 4 ===0) {
+            console.log(tahun ${tahun} adalah tahun kabisat);
+            }tahun++
+        }
+
+        do {
+            if (tahun % 400 === 0){
+            console.log(tahun ${tahun} adalah tahun kabisat);
+            } else if (tahun % 100 ===0) {
+            console.log(tahun ${tahun} adalah bukan tahun kabisat);
+            } else if (tahun % 4 ===0) {
+            console.log(tahun ${tahun} adalah tahun kabisat);
+            }tahun++
+        } while ( tahun <= 2024);
+    </script>
+</body>
+</html>
